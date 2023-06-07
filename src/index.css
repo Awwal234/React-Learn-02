@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+html {
+  height: 100%;
+}
+
+body, main {
+  min-height: 100vh;
+  font-family: 'Space Grotesk', sans-serif;
+}
+body::-webkit-scrollbar{
+  width: 3px;
+  background: transparent;
+}
+body::-webkit-scrollbar-track{
+  width: 3px;
+  background: transparent;
+}
+body::-webkit-scrollbar-thumb{
+  width: 3px;
+  background: black;
+}
+.logo{
+  background: linear-gradient(93.38deg, #496F74 -3.47%, #6E9195 35.61%, #2D4F61 84.29%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+input:focus{
+  outline: none;
+}
+.creative_side{
+  background: linear-gradient(162.21deg, #517879 4.83%, #1E3E57 103.44%);
+}
