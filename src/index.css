@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 html {
 	height: 100%;
@@ -24,22 +23,21 @@ body::-webkit-scrollbar-thumb {
 	width: 3px;
 	background: black;
 }
-.logo {
+
+.loginSheet {
 	background: linear-gradient(
-		93.38deg,
-		#496f74 -3.47%,
-		#6e9195 35.61%,
-		#2d4f61 84.29%
+		180deg,
+		rgba(43, 154, 217, 0.6) 0%,
+		rgba(255, 255, 255, 0.5) 100%
 	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	text-fill-color: transparent;
 }
 
-input:focus {
-	outline: none;
+.loginsheetShadow {
+	box-shadow: 6px 15px 50px 0px rgba(217, 217, 217, 0.2);
 }
-.creative_side {
-	background: linear-gradient(162.21deg, #517879 4.83%, #1e3e57 103.44%);
+
+.input_stroke {
+	stroke-width: 0.5px;
+	stroke: rgba(56, 64, 79, 0.5);
+	border: 0.5px solid rgba(56, 64, 79, 0.5);
 }

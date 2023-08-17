@@ -1,19 +1,18 @@
-import React from 'react'
-import LoginSide from './components/LoginSide.jsx'
-import CreativeSidebar from './components/CreativeSidebar.jsx'
+import React from 'react';
+import LoginBoard from './components/Board/LoginBoard';
 
-function App() {
-  
-  return (
-    <>
-      <main className="bg-[#fff] lg:flex">
-        <div className="md:w-[100%] w-full lg:w-[60%]">
-          <LoginSide/>
-        </div>
-        <CreativeSidebar/>
-      </main>
-    </>
-  )
-}
+const App = () => {
+	return (
+		<>
+			<body className="min-h-[100vh] pb-[20px] hidden lg:block loginSheet">
+				<div className="mx-auto w-fit">
+					<img src="/Images/circlelogo.svg" className="mx-auto" alt="" />
+				</div>
+				<div className="text-[#093649] mx-auto text-center leading-[24px] text-[25px] font-[500]">Welcome Let's Get Started!</div>
+			  <LoginBoard/>
+			</body>
+		</>
+	);
+};
 
-export default App
+export default App;
